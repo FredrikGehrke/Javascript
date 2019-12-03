@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+:root {
+    --ownPurple: #c781f19c;
+}
+
+body {
+    background-image: url('https://thumbs.gfycat.com/ComplexNiceBadger-size_restricted.gif') !important;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+
+.bg-color-1 {
+    background: rgba(180, 64, 248, 0.397);
+}
+
+.bg-colorwhite {
+    background: rgba(48, 48, 48, 0.856);
+    box-shadow: 0 0 150px #000;
+}
+
+.btn-own {
+    background: var(--ownPurple);
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn-own:hover {
+    background: #a845e69c;
+    box-shadow: 0 0 3px rgb(243, 243, 243);
+    color: rgb(255, 255, 255);
+}
+
+.user {
+    color: var(--ownPurple);
+    font-size: 5rem;
+    margin-top: -1rem;
+}
+
+.text-color {
+    color: #ffffff;
+}
+
+.text-info-own {
+    color: rgba(165, 13, 211, 0.836);
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+
+}
+
+.form-border {
+    border-radius: 4px;
+    border: 3px solid #1616165b;
+    padding: 6px;
+}
+
+.form-control {
+    border-radius: 0px 10px 10px 0px !important;
+}
+
+.input-group-text {
+    background: var(--ownPurple) !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 10px 0 0 10px !important;
+}
+
+#accountReg h1 {
+    font-size: 1.5rem;
+}
+
+#exampleCheck1 {
+    margin-top: 0.45rem;
+}
+
+#pass-div {
+    margin-top: 2.5rem;
+}
+
+#email-div {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.links {
+    color: white;
+}
+
+#sign-up {
+    color: var(--ownPurple);
+}
+
+
+/* .is-valid {
+    border-color: rgb(132, 14, 241) !important;
+} */
+
+.align-left {
+    text-align: left;
+    margin-left: 0rem;
+}
+
